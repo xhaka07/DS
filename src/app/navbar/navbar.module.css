@@ -1,0 +1,57 @@
+.navbar1, .navbar2, .navbar3 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between; /* This ensures the navbar items are spaced out */
+}
+
+.navbar1 a, .navbar2 a, .navbar3 a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navbar1 {
+  background-color: #4CAF50;
+}
+
+.navbar2 {
+  background-color: #008CBA;
+}
+
+.navbar3 {
+  background-color: #f44336;
+}
+
+/* Add a container for the buttons to push them to the right */
+.navbarButtonContainer {
+  margin-left: auto; /* Push the buttons to the right */
+}
+
+.squareButton, .roundedButton, .circularButton {
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+  color: white;
+  transition: background-color 0.3s, transform 0.1s ease;
+}
+
+.squareButton {
+  background-color: #4CAF50;
+}
+
+.roundedButton {
+  background-color: #008CBA;
+  border-radius: 10px;
+}
+
+.circularButton {
+  background-color: #f44336;
+  border-radius: 50%;
+}
+
+.squareButton:active, .roundedButton:active, .circularButton:active {
+  transform: scale(0.95);
+  background-color: darkgrey;
+}

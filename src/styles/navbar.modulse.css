@@ -1,0 +1,29 @@
+.navbar1, .navbar2, .navbar3 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+.navbar1 a, .navbar2 a, .navbar3 a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar1 {
+  background-color: #4CAF50;
+}
+
+.navbar2 {
+  background-color: #008CBA;
+}
+
+.navbar3 {
+  background-color: #f44336;
+}
+
+.navbar1 a:hover, .navbar2 a:hover, .navbar3 a:hover {
+  text-decoration: underline;
+}

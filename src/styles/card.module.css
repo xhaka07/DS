@@ -1,0 +1,28 @@
+.card1, .card2, .card3 {
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  display: inline-block;
+}
+
+.card1 {
+  background-color: #f0f0f0;
+  border: 2px solid #ddd;
+}
+
+.card2 {
+  background-color: #ffcccb;
+  border: 2px solid red;
+}
+
+.card3 {
+  background-color: #bde0fe;
+  border: 2px solid blue;
+}
+
+.card1:hover, .card2:hover, .card3:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}

@@ -1,0 +1,28 @@
+.squareButton, .roundedButton, .circularButton {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    color: white;
+    transition: background-color 0.3s, transform 0.1s ease;
+  }
+  
+  .squareButton {
+    background-color: #4CAF50;
+  }
+  
+  .roundedButton {
+    background-color: #008CBA;
+    border-radius: 10px;
+  }
+  
+  .circularButton {
+    background-color: #f44336;
+    border-radius: 50%;
+  }
+  
+  .squareButton:active, .roundedButton:active, .circularButton:active {
+    transform: scale(0.95);
+    background-color: darkgrey;
+  }
+  
